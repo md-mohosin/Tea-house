@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    max-width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    height: 100%;
+}
+
+.header-text {
+    width: 40%;
+}
+
+.header-text p{
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.header-text h1 {
+    font-size: 85px;
+}
+
+
+button{
+    background-image: linear-gradient(to right, orange , red);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+}
