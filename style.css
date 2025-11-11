@@ -1,3 +1,8 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,704&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +11,7 @@
 
 
 header {
+    font-family: inter;
     max-width: 1440px;
     height: 600px;
     margin: 0 auto;
@@ -20,7 +26,6 @@ header {
     gap: 100px;
     align-items: center;
     height: 100%;
-    border: 1px solid red;
 }
 
 .header-text {
@@ -43,6 +48,7 @@ header {
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
+    font-family: inter;
 }
 
 
@@ -56,7 +62,7 @@ header {
     margin: 0 auto;
     width: 90%;
     margin-top: 150px;
-    border: 1px solid blue;
+    font-family: inter;
 }
 
 .tea-card {
@@ -84,7 +90,7 @@ header {
 
 
 
-.great-tea-section {
+/* .great-tea-section {
     max-width: 1440px;
     margin: 0 auto;
     width: 90%;
@@ -115,7 +121,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 
 
@@ -124,7 +130,6 @@ header {
 
 
 .client-section {
-    border: 3px solid blue;
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
@@ -135,6 +140,7 @@ header {
     color: white;gap: 100px;
     padding-inline: 100px;
     align-items: center;
+    font-family: inter;
 }
 
 .client-section button {
@@ -142,10 +148,10 @@ header {
     padding: 14px 24px;font-size: large;
     border: none;
     border-radius: 8px;
+    font-family: inter;
 }
 
 .client-heading{
-    /* width: 50%; */
     color: white;
 }
 
@@ -156,7 +162,6 @@ header {
 .review{
     background-color: white;
     color: black;
-    /* width: 60%; */
     padding: 40px;
     border-radius: 10px;
     position: relative
@@ -178,11 +183,15 @@ header {
 
 
 .news{
-    border: 1px dashed violet;
     max-width: 1440px;
     width: 90%;
     margin: 0 auto;
     margin-top: 150px;
+    font-family: inter;
+}
+
+.news p{
+    color: rgb(179, 175, 175);
 }
 
 
@@ -208,6 +217,7 @@ footer{
     margin: 0 auto;
     background-color: #fbeae9;
     margin-top: 150px;
+    font-family: inter;
 }
 
 .footer{
@@ -222,4 +232,8 @@ footer ul{
 }
 .footer h2, li{
     padding-top: 10px;
+}
+
+.footer li{
+    color: rgb(74, 73, 73);
 }
