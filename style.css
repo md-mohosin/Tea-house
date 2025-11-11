@@ -20,13 +20,14 @@ header {
     gap: 100px;
     align-items: center;
     height: 100%;
+    border: 1px solid red;
 }
 
 .header-text {
     width: 40%;
 }
 
-.header-text p{
+.header-text p {
     font-size: 20px;
     padding: 30px 0;
 }
@@ -36,10 +37,41 @@ header {
 }
 
 
-button{
-    background-image: linear-gradient(to right, orange , red);
+button {
+    background-image: linear-gradient(to right, orange, red);
     color: white;
     border: none;
     padding: 12px 20px;
     border-radius: 6px;
+}
+
+
+
+
+
+
+
+.featured-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 150px;
+    border: 1px solid blue;
+}
+
+.tea-card {
+    width: 300px;
+    background-color: #f0eeee;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    padding-inline: 40px;
+    border-radius: 10px;
+}
+
+.featured{
+    display: flex;
+    justify-content: space-between;
 }
