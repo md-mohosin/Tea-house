@@ -37,7 +37,7 @@ header {
 }
 
 
-button {
+.btn {
     background-image: linear-gradient(to right, orange, red);
     color: white;
     border: none;
@@ -71,7 +71,100 @@ button {
     border-radius: 10px;
 }
 
-.featured{
+.featured {
     display: flex;
     justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+.great-tea-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 150px;
+    border: 1px solid blue;
+}
+
+.great-tea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.great-tea-image {
+    display: flex;
+}
+
+.img-1 {
+    rotate: calc(45deg);
+}
+
+.great-tea-text {
+    width: 70%;
+    border: 1px solid violet;
+}
+
+.great-tea-text div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.client-section {
+    border: 3px solid blue;
+    max-width: 1440px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+    height: 600px;
+    background-image: linear-gradient(to right, orange, red);
+    display: flex;
+    color: white;gap: 100px;
+    padding-inline: 100px;
+    align-items: center;
+}
+
+.client-section button {
+    background-color: white;
+    padding: 14px 24px;font-size: large;
+    border: none;
+    border-radius: 8px;
+}
+
+.client-heading{
+    /* width: 50%; */
+    color: white;
+}
+
+.client-heading h1{
+    font-size: 60px;
+}
+
+.review{
+    background-color: white;
+    color: black;
+    /* width: 60%; */
+    padding: 40px;
+    border-radius: 10px;
+    position: relative
+}
+
+.review img{
+    position: absolute;
+    top: -20px;left: -20px;
+    border: 4px solid white;
+    border-radius: 50%;
 }
