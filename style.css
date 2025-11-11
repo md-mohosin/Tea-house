@@ -201,3 +201,25 @@ header {
     display: flex;
     justify-content: space-between;
 }
+
+
+footer{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fbeae9;
+    margin-top: 150px;
+}
+
+.footer{
+    max-width:  1440px;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+footer ul{
+    list-style: none;
+}
+.footer h2, li{
+    padding-top: 10px;
+}
